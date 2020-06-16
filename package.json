@@ -6,6 +6,12 @@
   "repository": "git@github.com:gregoralbrecht/eslint-config.git",
   "author": "Gregor Albrecht <hello@gregoralbrecht.com>",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "react",
+    "jsx"
+  ],
   "eslintConfig": {
     "extends": "./index.js"
   },
