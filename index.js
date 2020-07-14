@@ -5,6 +5,8 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "plugin:react/recommended",
+    "plugin:import/warnings",
+    "plugin:import/errors",
     "prettier",
     "prettier/react",
   ],
@@ -16,5 +18,8 @@ module.exports = {
   },
   plugins: ["react", "react-hooks", "prettier", "import"],
   settings: {},
-  rules: {},
+  rules: {
+    "import/prefer-default-export": "off",
+    "import/no-default-export": "error",
+  },
 };
