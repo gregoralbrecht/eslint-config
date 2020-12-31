@@ -9,5 +9,14 @@ module.exports = {
         preset: "eslint",
       },
     ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        preset: "eslint",
+        writerOpts: {
+          commitsSort: ["scope"],
+        },
+      },
+    ],
   ],
 };
