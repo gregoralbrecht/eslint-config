@@ -8,7 +8,6 @@ module.exports = {
     "plugin:import/warnings",
     "plugin:import/errors",
     "prettier",
-    "prettier/react",
   ],
   env: {
     browser: true,
