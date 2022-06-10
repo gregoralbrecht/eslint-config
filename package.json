@@ -40,6 +40,6 @@
     "conventional-changelog-eslint": "^3.0.8",
     "eslint": "^7.16.0",
     "prettier": "^2.2.1",
-    "semantic-release": "^17.4.2"
+    "semantic-release": "^19.0.3"
   }
 }
